@@ -18,6 +18,8 @@ class StartScreen extends StatelessWidget {
             'assets/images/question_mark.png',
             width: 300,
             height: 300,
+            // color argument can add an overlay to image / a transparent overlay
+            color: const Color.fromARGB(150, 255, 255, 255),
           ),
           // sized box creates space between the image and the text
           const SizedBox(
@@ -31,14 +33,15 @@ class StartScreen extends StatelessWidget {
           const SizedBox(
             height: 30,
           ),
-          OutlinedButton(
+          OutlinedButton.icon(
             onPressed: () {},
             style: OutlinedButton.styleFrom(
               // foregroundColor is the text color
               foregroundColor: Colors.white,
             ),
-            child: const Text('Start Quiz'),
-          )
+            icon: const Icon(Icons.arrow_right_alt),
+            label: const Text('Start Quiz'),
+          ),
         ],
       ),
     );
