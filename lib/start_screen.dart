@@ -1,6 +1,7 @@
 // create a custom widget for screens
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // stateless widget because the data in this class is not changing
 class StartScreen extends StatelessWidget {
@@ -26,11 +27,12 @@ class StartScreen extends StatelessWidget {
           const SizedBox(
             height: 80,
           ),
-          const Text('Practice quiz on Flutter!',
-              style: TextStyle(
-                color: Colors.white,
+           Text('Practice quiz on Flutter!',
+              style: GoogleFonts.lato(
+                color: const Color.fromARGB(255, 229, 145, 244),
                 fontSize: 24,
-              )),
+                fontWeight: FontWeight.bold,
+              ),),
           const SizedBox(
             height: 30,
           ),
