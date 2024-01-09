@@ -5,8 +5,9 @@ import 'package:flutter/material.dart';
 // stateless widget because the data in this class is not changing
 class StartScreen extends StatelessWidget {
   // constructor function
-  const StartScreen({super.key});
+  const StartScreen(this.startQuiz,{super.key});
 
+  final void Function() startQuiz;
   @override
   Widget build(context) {
     // the cetner widget will cause it to take up the whole screen
@@ -34,9 +35,7 @@ class StartScreen extends StatelessWidget {
             height: 30,
           ),
           OutlinedButton.icon(
-            onPressed: () {
-              //...
-            },
+            onPressed: startQuiz,
             style: OutlinedButton.styleFrom(
               // foregroundColor is the text color
               foregroundColor: Colors.white,
