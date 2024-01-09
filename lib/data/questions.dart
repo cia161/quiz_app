@@ -23,10 +23,10 @@ const questions = [
   QuizQuestion(
     'What is the purpose of the ball in a ballpoint pen?',
     [
-      'Regulate ink flow and distribute it onto paper',
+      'Regulate ink flow & distribute it onto paper',
       'Hold the ink inside the pen',
       'Provide a comfortable grip',
-      'Prevent the pen from rolling off surfaces',
+      'Prevent the pen from rolling off',
     ],
   ),
   QuizQuestion(
