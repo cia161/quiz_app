@@ -27,7 +27,7 @@ class StartScreen extends StatelessWidget {
           const SizedBox(
             height: 80,
           ),
-           Text('Practice quiz on Flutter!',
+           Text('Test Your Pen Knowledge!',
               style: GoogleFonts.lato(
                 color: const Color.fromARGB(255, 229, 145, 244),
                 fontSize: 24,

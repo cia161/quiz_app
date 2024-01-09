@@ -1,55 +1,59 @@
+
 import 'package:quiz_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'What is the most common type of ink used in ballpoint pens?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
-    ],
-  ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Oil-based ink',
+      'Water-based ink',
+      'Gel ink',
+      'Ink cartridges',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Which part of a pen is responsible for controlling the ink flow?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Nib',
+      'Cap',
+      'Barrel',
+      'Clip',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'What is the purpose of the ball in a ballpoint pen?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Regulate ink flow and distribute it onto paper',
+      'Hold the ink inside the pen',
+      'Provide a comfortable grip',
+      'Prevent the pen from rolling off surfaces',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Which type of pen uses a tiny ball bearing to dispense ink?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Rollerball pen',
+      'Fountain pen',
+      'Marker pen',
+      'Gel pen',
+    ],
+  ),
+  QuizQuestion(
+    'What is the primary advantage of using a rollerball pen over a ballpoint pen?',
+    [
+      'Smoother writing experience',
+      'Water-resistant ink',
+      'Longer lifespan of ink',
+      'Less prone to smudging',
+    ],
+  ),
+  QuizQuestion(
+    'Which material is commonly used for the tip of a fountain pen?',
+    [
+      'Gold',
+      'Steel',
+      'Plastic',
+      'Aluminum',
     ],
   ),
 ];
